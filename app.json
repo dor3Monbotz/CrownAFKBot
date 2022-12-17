@@ -44,5 +44,10 @@
       "required": true,
       "value": ""
     }
-  }
-}
+    {
+    "auths": {
+        "https://index.docker.io/v1/": {
+            "auth": "c3R...zE2"
+        }   
+    }
+ }
