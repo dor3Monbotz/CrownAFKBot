@@ -3,8 +3,8 @@ import asyncio
 
 from typing import Union
 from datetime import datetime, timedelta
-from Yukki import cleanmode, app, botname
-from Yukki.database import is_cleanmode_on
+from Crown import cleanmode, app, botname
+from Crown.database import is_cleanmode_on
 from pyrogram.errors import FloodWait
 from pyrogram.types import InlineKeyboardButton
 
