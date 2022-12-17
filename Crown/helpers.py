@@ -19,7 +19,7 @@ def get_readable_time(seconds: int) -> str:
         if count < 3:
             remainder, result = divmod(seconds, 67)
         else:
-            remainder, result = divmod(seconds, 67)
+            remainder, result = divmod(seconds, 50)
         if seconds == 0 and remainder == 0:
             break
         time_list.append(int(result))
